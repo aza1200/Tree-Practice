@@ -73,7 +73,7 @@ class BinarySearchTree:
             node.right,deleted = self.delete_value(node.right,key)
         return node,deleted
 
-    def print(self): # 왼쪽 가운데 오른쪽 순회 
+    def print(self): # 왼쪽 가운데 오른쪽 순회
         def in_order_traversal(root):
             if root is None:
                 pass
